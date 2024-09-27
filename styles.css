@@ -423,65 +423,35 @@ section h2 {
 
 
 /* Estilos para el formulario de contacto */
-#contact {
+#social-media {
     padding: 50px;
     background-color: #222; /* Fondo oscuro para la sección */
     color: #f9f9f9; /* Color del texto claro */
     text-align: center;
 }
 
-#contact-form {
-    margin-top: 20px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    background-color: #333; /* Fondo oscuro para el formulario */
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
-}
-
-#contact-form h3 {
+#social-media h3 {
     margin-bottom: 20px;
     font-size: 1.8em;
     color: #f9f9f9; /* Color del texto del encabezado claro */
 }
 
-#contact-form label {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    display: block;
-    color: #f9f9f9; /* Color del texto de las etiquetas claro */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los iconos */
 }
 
-#contact-form input,
-#contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #555; /* Borde más oscuro para los campos de entrada */
-    border-radius: 5px;
-    font-size: 1em;
-    background-color: #444; /* Fondo oscuro para los campos de entrada */
-    color: #f9f9f9; /* Color del texto en los campos de entrada */
+.social-icon {
+    color: #f9f9f9; /* Color de los iconos */
+    font-size: 2em; /* Tamaño de los iconos */
+    transition: color 0.3s ease-in-out; /* Efecto de transición */
 }
 
-#contact-form button {
-    width: 100%;
-    padding: 15px;
-    background-color: #f7c600; /* Color amarillo para el botón */
-    color: #222; /* Color del texto del botón oscuro para contraste */
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+.social-icon:hover {
+    color: #f7c600; /* Color amarillo al pasar el cursor */
 }
 
-#contact-form button:hover {
-    background-color: #f0b700; /* Amarillo más oscuro al pasar el cursor */
-    transform: scale(1.05);
-}
 
 
 /* Estilos para el footer */
